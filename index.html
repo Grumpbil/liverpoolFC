@@ -76,11 +76,15 @@
             <p>Subscribe to our newsletter.</p>
             <form>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Full Name</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your full name with anyone else.</div>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your full name">
                 </div>
-                <div class="mb-3">
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" aria-label="Text input with checkbox" placeholder="Enter your email address">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                      <label class="form-check-label">Yes, I have subscribed to the newsletter</label>
+                    </div>
+                  </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
           </div>
